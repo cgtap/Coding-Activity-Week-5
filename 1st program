@@ -1,0 +1,23 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main() {
+    
+    double number;
+    
+    cout << "Enter a number:";
+    cin >> number;
+    
+    if (number == 0)
+        cout << "Your number is zero.";
+    else if (number > 0)
+        cout << "Your number is positive";
+    else
+        cout << "Your number is negative";
+    
+    
+    
+    return 0;
+}
